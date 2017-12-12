@@ -1,0 +1,82 @@
+/* Keith Hough, keithsportfolio.com, 2017 */
+
+body { background-color: #3b9ebd; }
+
+header, h1, h2, footer {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    width: 0;
+}
+
+h1, h2, footer { visibility: hidden; }
+
+#wrapper {
+    background-image: url("images/background-bart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #000;
+    border-radius: 6px;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input { color: #000; }
+
+label { padding: 20px 10px 0 10px; }
+
+#ipsum {
+    height: 13em;
+    margin-top: 20px;
+    width: 26em;
+}
+
+textarea {
+    background-color: #031507;
+    border: none;
+    resize: none;
+}
+
+#text-box {
+    font-family: 'Walter Turncoat', sans-serif;
+    font-size: 1.5em;
+}
+
+#copy, #clear {
+    background-color: #91151f;
+    border: 3px solid #fff;
+    color: #fff;
+    margin: 10px;
+}
+
+#copy:hover, #clear:hover {
+    background-color: #fff;
+    border: 3px solid #91151f;
+    color: #91151f;
+    font-weight: 800;
+}
+
+#back-bart {
+    background-color: #91151f;
+    border: 3px solid #fff;
+    color: #fff;
+    font-weight: 800;
+    margin: 100px 10px 10px 10px;
+}
+
+#back-bart:hover {
+    background-color: #fff;
+    border: 3px solid #91151f;
+    color: #9a1210;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 1200px) {
+    #ipsum {
+        width: 24em;
+    }
+}

@@ -1,0 +1,30 @@
+/* Keith Hough, keithsportfolio.com, 2017 */
+
+body {
+    background-color: #333;
+    font-family: Montserrat, sans-serif;
+}
+
+h1 { visibility: hidden; }
+
+h2 {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+}
+
+.jumbotron {
+    background-color: #333;
+    text-align: center;
+}
+
+.btn {
+    border: 2px solid #fff;
+    color: #fff;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+}

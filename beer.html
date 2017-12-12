@@ -1,0 +1,70 @@
+<!-- Keith Hough, keithsportfolio.com, 2017 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beer Ipsum</title>
+    <!--meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Keith Hough">
+    <meta name="description" content="Beer Ipsum Generator Project, Keith Hough, Web Design and Development Portfolio">
+    <meta name="keywords" content="Web Design, Web Development, HTML5, HTML, CSS, JavaScript, jQuery, Bootstrap, Adobe Creative Suite, Photoshop, Illustrator, Beer, Ipsum Generator">
+    <!--styles-->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="beer.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Beer Ipsum Generator</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Beer Ipsum</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <img src="images/beer-logo.jpg" alt="Beer Ipsum Logo" class="center-block">
+                    </div> <!--col-sm-12 col-lg-6-->
+
+                    <div class="col-sm-12 col-lg-6">
+                        <form action="#" method="post">
+                            <label for="num-quotes">Number of Beers</label>
+                            <input type="number" name="quotes" id="num-quotes" min="1" max="25">
+                            <label for="num-paragraphs">Number of Paragraphs</label>
+                            <input type="number" name="paragraphs" id="num-paragraphs" min="1" max="25">
+                            <label for="p-tag">&lt;p&gt;</label>
+                            <input type="checkbox" name="p-tag" id="p-tag">
+                            <div id="text-box"><textarea id="ipsum"></textarea></div>
+
+                            <button type="button" class="btn btn-lg" id="copy">COPY</button>
+                            <button type="button" class="btn btn-lg" id="clear">CLEAR</button>
+                        </form>
+                    </div> <!--col-sm-12 col-lg-6-->
+                </div> <!--row-->
+            </div> <!--container-->
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="index.html" class="btn btn-lg pull-right" id="back-beer">BACK</a>
+                </div> <!--col-sm-12-->
+            </div> <!--row-->
+        </div> <!--container-->
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="quotes.js"></script>
+    <script src="generator.js"></script>
+
+</body>
+</html>

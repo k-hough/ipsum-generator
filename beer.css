@@ -1,0 +1,63 @@
+/* Keith Hough, keithsportfolio.com, 2017 */
+
+body {
+    background-color: #1a1a1a;
+    color: #333;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+header, h1, h2 {
+    height: 0;
+    margin: 0;
+    width: 0;
+}
+
+h1, h2 { visibility: hidden; }
+
+main { padding-top: 10px; }
+
+form { text-align: center; }
+
+label {
+    color: #fff;
+    padding: 20px 10px 0 10px;
+}
+
+input { width: 35px; }
+
+#ipsum {
+    height: 25em;
+    margin-top: 20px;
+    width: 34.375em;
+}
+
+textarea { resize: none; }
+
+#copy, #clear {
+    background-color: #1a1a1a;
+    border: 2px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    margin: 10px;
+}
+
+#copy:hover, #clear:hover {
+    background-color: #fff;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+
+#back-beer {
+    border: 2px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    margin: 10px;
+}
+
+#back-beer:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+}
